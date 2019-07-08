@@ -11,6 +11,7 @@ $ git clone git@github.com:albertcolom/docker-lemp.git
 Start docker compose
 ```sh
 $ docker-compose up -d
+```
 
 Web Server
 - [http://localhost](http://localhost)
