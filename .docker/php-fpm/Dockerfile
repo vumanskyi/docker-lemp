@@ -2,7 +2,7 @@ FROM phpdockerio/php73-fpm:latest
 
 MAINTAINER Vlad Umanskyi <vladumanskyi.com>
 
-WORKDIR "/application"
+WORKDIR "/app"
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install  php7.3-mysql \
